@@ -16,28 +16,23 @@
 
 (define hostname-input (new text-field%
                             [label "Hostname"]
-                            [parent user-panel]
-                            [init-value "oguzozozgen.site88.net"]))
+                            [parent user-panel]))
 
 (define username-input (new text-field%
                             [label "username"]
-                            [parent user-panel]
-                            [init-value "a9238602"]))
+                            [parent user-panel]))
 
 (define password-input (new text-field%
                             [label "password"]
-                            [parent user-panel]
-                            [init-value "ogguzhanwh6908"]))
+                            [parent user-panel]))
 
 (define remote-dir-input (new text-field%
                             [label "remote-dir"]
-                            [parent user-panel]
-                            [init-value "public_html/"]))
+                            [parent user-panel]))
 
 (define object-file-input (new text-field%
                             [label "object-file-input"]
-                            [parent user-panel]
-                            [init-value ""]))
+                            [parent user-panel]))
 
 (define file-list-box (new list-box%
                            [parent user-panel]

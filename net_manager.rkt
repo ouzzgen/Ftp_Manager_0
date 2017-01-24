@@ -6,7 +6,7 @@
                    [label "M Editor"]
                    [width 300]
                    [height 300]))
-;; (define m-tab (new tab-panel% [choices [new label "kek"][parent frame]))
+;; (define m-tab (new tab-panel% [choices [new label "new tab"][parent frame]))
 (define m-menubar (new menu-bar% [parent manager_frame]))
 (define m-menu (new menu%
                      [label "Menu"]
