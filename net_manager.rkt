@@ -91,4 +91,4 @@
 (send m-editor set-editor m-text)
 
 
-;; (send manager_frame show #t)
+(send manager_frame show #t)
